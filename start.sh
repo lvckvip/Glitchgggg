@@ -1,10 +1,11 @@
 #!/bin/bash
-export UUID=${UUID:-'8eae54fc-e926-4cd1-9d67-ccbfcfde6c0d'}
+export UUID=${UUID:-'0211575e-b56a-4b37-a5e1-161477be1ced'}
 export NEZHA_SERVER=${NEZHA_SERVER:-''} 
-export NEZHA_PORT=${NEZHA_PORT:-'5555'}     
+export NEZHA_PORT=${NEZHA_PORT:-'443'}     
 export NEZHA_KEY=${NEZHA_KEY:-''} 
-export ARGO_DOMAIN=${ARGO_DOMAIN:-''}   
-export ARGO_AUTH=${ARGO_AUTH:-''}    
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'orzechaa.singck.dpdns.org'}   
+export ARGO_AUTH=${ARGO_AUTH:-'eyJhIjoiMzdhNDU0OTVmMGQ1ZDA4Y2Q5MDgyOWUwMzdhMmZmNjYiLCJ0IjoiZmQ0YzdiMGEtN2RhZC00MGUwLWJmZmUtNGFhNzE2ZTc0NDk4IiwicyI6IlpUWTJNVFpoTTJJdFlUWmlZeTAwTUdKbExXSm1OREl0WTJGa05EVXdaVGcxTURreiJ9
+'}    
 export CFIP=${CFIP:-'usa.visa.com'} 
 export CFPORT=${CFPORT:-'8443'}         
 export NAME=${NAME:-'Glitch'}        
